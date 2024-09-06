@@ -66,3 +66,5 @@ if uploaded_file is not None:
                  st.write("SD of the",y_axis,np.std(df[y_axis]))
             st.subheader("Co-relation values")
             st.write(df[x_axis].corr(df[y_axis]))
+
+st.markdown("<h6><center>Copyright © Vasantha Raj - All rights reserved</center></h6>",unsafe_allow_html=True)
